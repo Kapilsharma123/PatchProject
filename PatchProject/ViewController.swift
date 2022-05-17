@@ -14,6 +14,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func ActionGo(_ sender: Any) {
+        self.performSegue(withIdentifier: "second", sender: self)
+    }
+    
 }
 
